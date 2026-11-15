@@ -3,9 +3,31 @@
 <%- include('partials/navigation') %>
 
 <main class="container mt-5">
-    <h1>Welcome to My Portfolio</h1>
-    <p>My name is Iqra, and I am an Information Technology student specializing in Cybersecurity.</p>
-    <p>Explore my website to learn more about me and my academic interests.</p>
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <p class="text-primary fw-bold">Welcome to my website</p>
+            <h1>Hello, I'm Iqra!</h1>
+            <h4 class="text-secondary">Information Technology Student</h4>
+
+            <p class="mt-4">
+                I am currently pursuing a Bachelor's degree in Information
+                Technology, specializing in Cybersecurity.
+            </p>
+
+            <p>
+                I enjoy learning about technology and exploring how
+                digital systems can be kept secure.
+            </p>
+
+            <a href="/about" class="btn btn-primary mt-3">
+                Learn More About Me
+            </a>
+        </div>
+
+        <div class="col-md-4 text-center">
+            <i class="fas fa-shield-alt fa-7x text-primary"></i>
+        </div>
+    </div>
 </main>
 
 <%- include('partials/footer') %>
